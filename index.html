@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="Tree-Planner: Efficient Close-loop Task Planning with Large Language Models">
+        content="Benchmarking Large Language Models for Symbolic World Model Generation">
   <meta name="keywords" content="Embodied AI, AI Agents, Large Language Models">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Tree-Planner: Efficient Close-loop Task Planning with Large Language Models</title>
+  <title>Benchmarking Large Language Models for Symbolic World Model Generation</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
@@ -79,7 +79,7 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Tree-Planner: Efficient Close-loop Task Planning with Large Language Models</h1>
+          <h1 class="title is-1 publication-title">Benchmarking Large Language Models for Symbolic World Model Generation</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="https://scholar.google.com.hk/citations?user=FhVRimUAAAAJ&hl=zh-CN&oi=ao">Mengkang Hu</a><sup>1</sup>,</span>
@@ -189,27 +189,21 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            This paper studies close-loop task planning, which refers to the process of generating a sequence of skills (a plan) to accomplish a specific goal while adapting the plan based on real-time observations.
+            Recently, there has been growing interest in leveraging large language models (LLMs) to generate symbolic world models from textual descriptions. 
           </p>
           <p>
-            Recently, prompting Large Language Models (LLMs) to generate actions iteratively has become a prevalent paradigm due to its superior performance and user-friendliness.
-            However, this paradigm is plagued by two inefficiencies: high token consumption and redundant error correction, both of which hinder its scalability for large-scale testing and applications.
+            Although LLMs have been extensively explored in the context of world modeling, prior studies encountered several challenges, including evaluation randomness, dependence on indirect metrics, and a limited domain scope.
           </p>
           <p>
-            To address these issues, we propose Tree-Planner, which reframes task planning with LLMs into three distinct phases: 
-            plan sampling,  action tree construction, and grounded deciding.
+            To address these limitations, we introduce a novel benchmark, \benchmark, based on planning domain definition language (PDDL), featuring hundreds of diverse domains and employing multi-criteria, execution-based metrics for a more robust evaluation.
+            We benchmark current LLMs using \benchmark and find that reasoning models trained with large-scale reinforcement learning outperform others.
           </p>
           <p>
-            Tree-Planner starts by using an LLM to sample a set of potential plans before execution, followed by the aggregation of them to form an action tree.
-            Finally, the LLM performs a top-down decision-making process on the tree, taking into account real-time environmental information.
+            However, even the best-performing model still demonstrates limited capabilities in world modeling.
           </p>
           <p>
-            Experiments show that Tree-Planner achieves state-of-the-art performance while maintaining high efficiency.
-            By decomposing LLM queries into a single plan-sampling call and multiple grounded-deciding calls,
-            a considerable part
-            of the prompt are less likely to be repeatedly consumed. 
-            As a result, token consumption is reduced by 92.2% compared to the previously best-performing model.
-            Additionally, by enabling backtracking on the action tree as needed, the correction process becomes more flexible, leading to a 40.5% decrease in error corrections.
+            Building on these insights, we examine several promising strategies to enhance the world modeling capabilities of LLMs, including test-time scaling, agent training, and more.
+            We hope that \benchmark can serve as a crucial resource, laying the groundwork for future research in leveraging LLMs as world models.
           </p>
         </div>
       </div>
