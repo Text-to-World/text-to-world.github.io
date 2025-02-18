@@ -79,13 +79,43 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Benchmarking Large Language Models for Symbolic World Model Generation</h1>
+          <h1 class="title is-1 publication-title">🌍Text2World: Benchmarking Large Language Models for Symbolic World Model Generation</h1>
           <div class="is-size-5 publication-authors">
-
+            {% comment %} <span class="author-block">
+              <a href="https://scholar.google.com.hk/citations?user=FhVRimUAAAAJ&hl=zh-CN&oi=ao">Mengkang Hu</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://yaomarkmu.github.io/">Yao Mu</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=yflYWnYAAAAJ&hl=zh-CN">Xinmiao Yu</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://dingmyu.github.io/">Mingyu Ding</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?hl=zh-CN&user=2sMrpy4AAAAJ">Shiguang Wu</a><sup>3</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://wqshao126.github.io/">Wenqi Shao</a><sup>4</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=8j8AfF0AAAAJ&hl=en&oi=ao">Qiguang Chen</a><sup>2</sup>
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?hl=zh-CN&user=KWZG_YsAAAAJ">Bin Wang</a><sup>3</sup>
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=gFtI-8QAAAAJ&hl=en">Yu Qiao</a><sup>4</sup>
+            </span>
+            <span class="author-block">
+              <a href="http://luoping.me/">Ping Luo</a><sup>1</sup>
+            </span> {% endcomment %}
           </div>
 
           <div class="is-size-5 publication-authors">
-
+            {% comment %} <span class="author-block"><sup>1</sup>The University of Hong Kong,</span>
+            <span class="author-block"><sup>2</sup>Harbin Institute of Technology</span>
+            <span class="author-block"><sup>3</sup>Noah’s Ark Laboratory,</span>
+            <span class="author-block"><sup>4</sup>Shanghai AI Laboratory</span> {% endcomment %}
           </div>
 
           <div class="column has-text-centered">
@@ -173,15 +203,15 @@
             Although LLMs have been extensively explored in the context of world modeling, prior studies encountered several challenges, including evaluation randomness, dependence on indirect metrics, and a limited domain scope.
           </p>
           <p>
-            To address these limitations, we introduce a novel benchmark, Text2World, based on planning domain definition language (PDDL), featuring hundreds of diverse domains and employing multi-criteria, execution-based metrics for a more robust evaluation.
-            We benchmark current LLMs using Text2World and find that reasoning models trained with large-scale reinforcement learning outperform others.
+            To address these limitations, we introduce a novel benchmark, \Text2World, based on planning domain definition language (PDDL), featuring hundreds of diverse domains and employing multi-criteria, execution-based metrics for a more robust evaluation.
+            We benchmark current LLMs using \Text2World and find that reasoning models trained with large-scale reinforcement learning outperform others.
           </p>
           <p>
             However, even the best-performing model still demonstrates limited capabilities in world modeling.
           </p>
           <p>
             Building on these insights, we examine several promising strategies to enhance the world modeling capabilities of LLMs, including test-time scaling, agent training, and more.
-            We hope that Text2World can serve as a crucial resource, laying the groundwork for future research in leveraging LLMs as world models.
+            We hope that \Text2World can serve as a crucial resource, laying the groundwork for future research in leveraging LLMs as world models.
           </p>
         </div>
       </div>
@@ -196,7 +226,12 @@
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
     <pre><code>
-
+{% comment %} @article{hu2023tree,
+  title={Tree-Planner: Efficient Close-loop Task Planning with Large Language Models},
+  author={Hu, Mengkang and Mu, Yao and Yu, Xinmiao and Ding, Mingyu and Wu, Shiguang and Shao, Wenqi and Chen, Qiguang and Wang, Bin and Qiao, Yu and Luo, Ping},
+  journal={arXiv preprint arXiv:2310.08582},
+  year={2023}
+} {% endcomment %}
     </code></pre>
   </div>
 </section>
