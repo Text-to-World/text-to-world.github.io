@@ -7,9 +7,9 @@ If you find Text2World useful for your work please cite:
 ```
 <!-- @article{hu2023tree,
   title={Text2World: Benchmarking Large Language Models for Symbolic World Model Generation},
-  <!-- author={Hu, Mengkang and Mu, Yao and Yu, Xinmiao and Ding, Mingyu and Wu, Shiguang and Shao, Wenqi and Chen, Qiguang and Wang, Bin and Qiao, Yu and Luo, Ping},
+  author={Hu, Mengkang and Mu, Yao and Yu, Xinmiao and Ding, Mingyu and Wu, Shiguang and Shao, Wenqi and Chen, Qiguang and Wang, Bin and Qiao, Yu and Luo, Ping},
   journal={arXiv preprint arXiv:2310.08582},
-  year={2025} -->
+  year={2025}
 } -->
 ```
 
