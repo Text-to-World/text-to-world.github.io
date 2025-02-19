@@ -5,12 +5,15 @@ The source code is borrowed from [Nefies website](https://nerfies.github.io/)
 
 If you find Text2World useful for your work please cite:
 ```
-<!-- @article{hu2023tree,
-  title={Text2World: Benchmarking Large Language Models for Symbolic World Model Generation},
-  author={Hu, Mengkang and Mu, Yao and Yu, Xinmiao and Ding, Mingyu and Wu, Shiguang and Shao, Wenqi and Chen, Qiguang and Wang, Bin and Qiao, Yu and Luo, Ping},
-  journal={arXiv preprint arXiv:2310.08582},
-  year={2025}
-} -->
+@misc{hu2025text2worldbenchmarkinglargelanguage,
+      title={Text2World: Benchmarking Large Language Models for Symbolic World Model Generation}, 
+      author={Mengkang Hu and Tianxing Chen and Yude Zou and Yuheng Lei and Qiguang Chen and Ming Li and Hongyuan Zhang and Wenqi Shao and Ping Luo},
+      year={2025},
+      eprint={2502.13092},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2502.13092}, 
+}
 ```
 
 # Website License
